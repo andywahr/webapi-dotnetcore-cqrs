@@ -8,7 +8,7 @@ using System.Net;
 namespace Sample.WebApi.ServiceHost.Controllers
 {
     /// <summary>
-    /// 
+    /// Base Controller to standardized return message and error handling
     /// </summary>
     public abstract class BaseController : ControllerBase
     {
